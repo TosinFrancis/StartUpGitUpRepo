@@ -68,4 +68,4 @@ with interpret:
     st.markdown(f"- For every additional 1 dollar spent on Administration Expense, the expected profit is expected to decrease by ${model.coef_[1].round(2)}  ")
 
     st.markdown(f"- For every additional 1 dollar spent on Marketting Expense, the expected profit is expected to increase by ${model.coef_[2].round(2)}  ")
-    s = pd.read_csv('https://docs.google.com/spreadsheets/d/1KPmqPZpfGLtAPXSnbpdM3i7kaV6cxE8IxRAuvsHkfxY/edit?usp=sharing')
+    # s = pd.read_csv('https://docs.google.com/spreadsheets/d/1KPmqPZpfGLtAPXSnbpdM3i7kaV6cxE8IxRAuvsHkfxY/edit?usp=sharing')
